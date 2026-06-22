@@ -24,7 +24,7 @@ services:
       DB_NAME:     taskboard
       DB_USER:     taskuser
       DB_PASSWORD: taskpass123
-      PORT:        3001
+      PORT:        3002
     depends_on:
       db:
         condition: service_healthy
